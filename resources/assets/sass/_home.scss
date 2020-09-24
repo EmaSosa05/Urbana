@@ -1,0 +1,20 @@
+
+.navbar {
+  background-color: lighten(grey,10%) !important;
+  opacity: 85%;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px 0;
+  z-index: 999;
+}
+
+.navbar-brand img {
+  max-height: 2.5rem;
+  opacity: 100%;
+}
+
+.nav-item {
+  color: white;
+}
