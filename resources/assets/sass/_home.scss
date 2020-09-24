@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   right: 0;
-  padding: 5px 0;
+  padding: 1px 3px;
   z-index: 999;
 }
 
@@ -17,4 +17,11 @@
 
 .nav-item {
   color: white;
+}
+
+.carousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
