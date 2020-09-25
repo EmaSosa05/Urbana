@@ -21,6 +21,7 @@
     @include('inc.navbar')
 
     @yield('content')
+    @yield('proyectos')
 
     @include('inc.footer')
     
