@@ -1,39 +1,47 @@
 @extends('layouts.app')
  
 @section('content')
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-caption">
-            <img src="/images/Urbana_logo.png" class="carousel-img">
+    <div class="row">
+        <div class="col-sm">
+            <!-- <img src="/images/Urbana_logo.png" class="carousel-img"> -->
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <li class="carousel-block" style="background-image: url(https://images.clarin.com/2018/01/18/B15vQiRNG_720x0__1.jpg);" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <li class="carousel-block" style="background-image: url(https://www.lanoticia1.com/sites/default/files/circ.jpeg);" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <li class="carousel-block" style="background-image: url(https://www.infocanuelas.com/app/media/acercarte-canuelas.jpeg);" alt="First slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> -->
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="https://images.clarin.com/2018/01/18/B15vQiRNG_720x0__1.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="https://www.lanoticia1.com/sites/default/files/circ.jpeg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="https://www.infocanuelas.com/app/media/acercarte-canuelas.jpeg" alt="Third slide">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 @endsection
 @section('proyectos')
-    <div class="container">
-        <div class="row no-gutters">
-            <div class="col">
-                <img class= "justify-content-start" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZkm8DtLiX8NaPythgUtjHJiziSePeOpLfRA&usqp=CAU">
-            </div>
-            <div class="col">
-                <img class= "justify-content-end" src="https://img.interempresas.net/fotos/2244011.jpeg">
+    <div class="row text-center no-gutters">
+        <div class="col-sm text-center my-auto">
+            <a class="card card-block d-flex" href="/paisajismo" style="text-decoration:none !important">
+                <div class="card-body align-items-center d-flex justify-content-center card-own img-paisa">
+                    <div class="text-proyectos"> PAISAJISMO </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm text-center my-auto">
+            <a class="card card-block d-flex" href="/construccion" style="text-decoration:none !important">
+                <div class="card-body align-items-center d-flex justify-content-center card-own img-cons">
+                    <div class="text-proyectos"> CONSTRUCCION </div>
+                </div>
             </div>
         </div>
     </div>

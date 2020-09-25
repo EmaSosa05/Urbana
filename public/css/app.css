@@ -10911,7 +10911,6 @@ a.text-dark:focus {
 }
 
 .navbar-brand img {
-  max-height: 2.5rem;
   opacity: 100%;
 }
 
@@ -10929,13 +10928,49 @@ a.text-dark:focus {
   display: block;
 }
 
-.carousel-img {
-  margin: auto;
-  width: 45%;
+.carousel-block {
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.col img {
-  width: 100px;
-  height: 100px;
+.carousel-block:before {
+  content: "";
+  display: block;
+  padding-top: 35%;
+}
+
+.carousel-img {
+  z-index: 12;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto auto;
+  width: 17%;
+}
+
+.card-own {
+  opacity: 0.5;
+}
+
+.card-own:hover {
+  opacity: 1;
+}
+
+.img-paisa {
+  background: url("https://como-funciona.com/wp-content/uploads/2019/02/c%C3%B3mo-funciona-el-paisajismo.jpg") no-repeat;
+}
+
+.img-cons {
+  background: url("https://img.interempresas.net/fotos/2244011.jpeg") no-repeat;
+}
+
+.text-proyectos {
+  font-size: 6vw;
+  color: white;
+  font-weight: bold;
 }
 
