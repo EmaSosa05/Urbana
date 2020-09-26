@@ -10918,6 +10918,11 @@ a.text-dark:focus {
   color: white;
 }
 
+.dropdown-menu {
+  background-color: silver !important;
+  opacity: 90%;
+}
+
 .d-block {
   opacity: 70%;
 }
@@ -10972,5 +10977,114 @@ a.text-dark:focus {
   font-size: 6vw;
   color: white;
   font-weight: bold;
+}
+
+.text-muted {
+  font-size: 1.5vw;
+}
+
+.about-parallax {
+  height: 35vw;
+  background: url("https://i.pinimg.com/originals/22/31/09/223109c96071bb64b41c5aeb98ee7bea.jpg") no-repeat center center scroll;
+  filter: grayscale(100%);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-parallax .content {
+  width: 100%;
+}
+
+.about-parallax .content h1 {
+  font-weight: 420;
+  font-size: 2.2vw;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.about-hero {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.about-hero .content {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.about-hero .content p {
+  font-size: 1.5vw;
+}
+
+.about-hero .content-2 {
+  padding: 2.5%;
+}
+
+.about-hero .col-center {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-background {
+  background: whitesmoke;
+  text-align: center;
+  border-bottom: 7.5px solid chocolate;
+  margin-bottom: 7.5%;
+}
+
+.photo-background h1 {
+  font-size: 3vw;
+}
+
+.photo-background h5 {
+  font-size: 1.5vw;
+}
+
+.photo-background p {
+  color: #1a1a1a;
+  text-shadow: none;
+  font-size: 1vw;
+}
+
+.photo-background img {
+  margin: 4%;
+  width: 15vw;
+  border-radius: 50%;
+}
+
+.paral-de {
+  width: 100%;
+  height: 25vw;
+}
+
+.paral-de img {
+  width: 100%;
+  height: 25vw;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+          clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.paral-iz {
+  width: 100%;
+  height: 25vw;
+}
+
+.paral-iz img {
+  width: 100%;
+  height: 25vw;
+  -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+          clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
 }
 

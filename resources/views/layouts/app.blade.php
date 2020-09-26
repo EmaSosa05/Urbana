@@ -20,8 +20,9 @@
  
     @include('inc.navbar')
 
-    @yield('content')
+    @yield('home')
     @yield('proyectos')
+    @yield('about')
 
     @include('inc.footer')
     
