@@ -10984,28 +10984,16 @@ a.text-dark:focus {
 }
 
 .about-parallax {
+  background-image: url("https://i.pinimg.com/originals/22/31/09/223109c96071bb64b41c5aeb98ee7bea.jpg");
+  /* Set a specific height */
   height: 35vw;
-  background: url("https://i.pinimg.com/originals/22/31/09/223109c96071bb64b41c5aeb98ee7bea.jpg") no-repeat center center scroll;
-  filter: grayscale(100%);
-  background-size: cover;
+  background-size: 100%;
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  text-align: center;
-  margin: 0 auto;
-  padding: 2.5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-parallax .content {
-  width: 100%;
-}
-
-.about-parallax .content h1 {
-  font-weight: 420;
-  font-size: 2.2vw;
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
 }
 
 .about-hero {
@@ -11021,7 +11009,12 @@ a.text-dark:focus {
 }
 
 .about-hero .content p {
-  font-size: 1.5vw;
+  font-size: 1.3vw;
+  color: grey;
+}
+
+.about-hero .content h1 {
+  font-size: 3vw;
 }
 
 .about-hero .content-2 {
@@ -11037,8 +11030,21 @@ a.text-dark:focus {
   align-items: center;
 }
 
+.about-hero .col-content {
+  margin: 0 auto;
+  padding: 2.5%;
+}
+
+.about-hero .separador {
+  background-color: #ff9303;
+  color: #ff9303;
+  height: 2px;
+  width: 10%;
+  margin: auto;
+}
+
 .photo-background {
-  background: whitesmoke;
+  background: rgba(245, 245, 245, 0.3);
   text-align: center;
   border-bottom: 7.5px solid chocolate;
   margin-bottom: 7.5%;
@@ -11062,29 +11068,5 @@ a.text-dark:focus {
   margin: 4%;
   width: 15vw;
   border-radius: 50%;
-}
-
-.paral-de {
-  width: 100%;
-  height: 25vw;
-}
-
-.paral-de img {
-  width: 100%;
-  height: 25vw;
-  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-          clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-}
-
-.paral-iz {
-  width: 100%;
-  height: 25vw;
-}
-
-.paral-iz img {
-  width: 100%;
-  height: 25vw;
-  -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
-          clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
 }
 
