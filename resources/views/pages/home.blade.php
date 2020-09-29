@@ -1,18 +1,21 @@
 @extends('layouts.app')
  
 @section('home')
-<section id="home">
+<section id="home" class="home-hero">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <img src="/images/Urbana_logo.png" class="carousel-img">
         <div class="carousel-inner">
             <div class="carousel-item active"> 
-                <li class="carousel-block" style="background-image: url(https://images.clarin.com/2018/01/18/B15vQiRNG_720x0__1.jpg);" alt="First slide">
+                <div class="carousel-block img-fluid" style="background-image: url(https://images.clarin.com/2018/01/18/B15vQiRNG_720x0__1.jpg);" alt="First slide"></div>
+                <!-- <img class="w-100" src="https://images.clarin.com/2018/01/18/B15vQiRNG_720x0__1.jpg" alt="First slide"> -->
             </div>
             <div class="carousel-item">
-                <li class="carousel-block" style="background-image: url(https://www.lanoticia1.com/sites/default/files/circ.jpeg);" alt="First slide">
+                <div class="carousel-block img-fluid" style="background-image: url(https://www.lanoticia1.com/sites/default/files/circ.jpeg);" alt="First slide"></div>
+                <!-- <img class="w-100" src="https://www.lanoticia1.com/sites/default/files/circ.jpeg" alt="First slide"> -->
             </div>
             <div class="carousel-item">
-                <li class="carousel-block" style="background-image: url(https://www.infocanuelas.com/app/media/acercarte-canuelas.jpeg);" alt="First slide">
+                <div class="carousel-block img-fluid" style="background-image: url(https://www.infocanuelas.com/app/media/acercarte-canuelas.jpeg);" alt="First slide"></div>
+                <!-- <img class="w-100" src="https://www.infocanuelas.com/app/media/acercarte-canuelas.jpeg" alt="First slide"> -->
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

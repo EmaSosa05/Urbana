@@ -22,6 +22,10 @@
   opacity: 90%;
 }
 
+.home-hero{
+  padding-top: 44px;
+}
+
 .d-block {
   opacity: 70%;
 }
@@ -34,6 +38,7 @@
 
 .carousel-block{
   width: 100%;
+  min-height: 100%;
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +57,7 @@
   top: 0;
   bottom: 0;
   margin: auto auto;
-  width: 17%;
+  width: 160px;
 }
 
 .card-own{
@@ -101,16 +106,17 @@
   display: block;
   text-align: center;
   margin: auto;
+  padding-top: 44px;
   .content {
     display: block;
     text-align: center;
     margin: auto;
     p {
-      font-size: 1.3vw;
+      font-size: 15px;
       color: grey;
     }    
     h1 {
-      font-size: 3vw;
+      font-size: 32px;
     }
   }
   .content-2{
@@ -126,7 +132,7 @@
   }
   .col-content{
     margin: 0 auto;
-    padding: 2.5%;
+    padding-left: 15px;
   }
   .separador {
     background-color: #ff9303;
@@ -145,22 +151,22 @@
   // opacity: 10%;
 
   h1 {
-    font-size: 3vw;
+    font-size: 20px;
   }
   
   h5 {
-    font-size: 1.5vw;
+    font-size: 15px;
   }
 
   p {
       color: lighten(black, 10%);
       text-shadow: none;
-      font-size: 1vw;
+      font-size: 10px;
   }  
 
   img{
       margin: 4%;
-      width: 15vw;
+      width: 178px;
       border-radius: 50%;
   }
 }

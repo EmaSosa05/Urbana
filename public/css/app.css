@@ -10923,6 +10923,10 @@ a.text-dark:focus {
   opacity: 90%;
 }
 
+.home-hero {
+  padding-top: 44px;
+}
+
 .d-block {
   opacity: 70%;
 }
@@ -10935,6 +10939,7 @@ a.text-dark:focus {
 
 .carousel-block {
   width: 100%;
+  min-height: 100%;
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -10954,7 +10959,7 @@ a.text-dark:focus {
   top: 0;
   bottom: 0;
   margin: auto auto;
-  width: 17%;
+  width: 160px;
 }
 
 .card-own {
@@ -11000,6 +11005,7 @@ a.text-dark:focus {
   display: block;
   text-align: center;
   margin: auto;
+  padding-top: 44px;
 }
 
 .about-hero .content {
@@ -11009,12 +11015,12 @@ a.text-dark:focus {
 }
 
 .about-hero .content p {
-  font-size: 1.3vw;
+  font-size: 15px;
   color: grey;
 }
 
 .about-hero .content h1 {
-  font-size: 3vw;
+  font-size: 32px;
 }
 
 .about-hero .content-2 {
@@ -11032,7 +11038,7 @@ a.text-dark:focus {
 
 .about-hero .col-content {
   margin: 0 auto;
-  padding: 2.5%;
+  padding-left: 15px;
 }
 
 .about-hero .separador {
@@ -11051,22 +11057,22 @@ a.text-dark:focus {
 }
 
 .photo-background h1 {
-  font-size: 3vw;
+  font-size: 20px;
 }
 
 .photo-background h5 {
-  font-size: 1.5vw;
+  font-size: 15px;
 }
 
 .photo-background p {
   color: #1a1a1a;
   text-shadow: none;
-  font-size: 1vw;
+  font-size: 10px;
 }
 
 .photo-background img {
   margin: 4%;
-  width: 15vw;
+  width: 178px;
   border-radius: 50%;
 }
 

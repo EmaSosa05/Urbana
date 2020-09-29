@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('about')
-<section id="nosotros" class="about-parallax">
-</section>
 <section class="about-hero">
     <div class="content">
         <div class="row no-gutters">
