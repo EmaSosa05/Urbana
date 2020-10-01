@@ -7,15 +7,12 @@
         <div class="carousel-inner">
             <div class="carousel-item active"> 
                 <div class="carousel-block img-fluid" style="background-image: url(https://images.clarin.com/2018/01/18/B15vQiRNG_720x0__1.jpg);" alt="First slide"></div>
-                <!-- <img class="w-100" src="https://images.clarin.com/2018/01/18/B15vQiRNG_720x0__1.jpg" alt="First slide"> -->
             </div>
             <div class="carousel-item">
                 <div class="carousel-block img-fluid" style="background-image: url(https://www.lanoticia1.com/sites/default/files/circ.jpeg);" alt="First slide"></div>
-                <!-- <img class="w-100" src="https://www.lanoticia1.com/sites/default/files/circ.jpeg" alt="First slide"> -->
             </div>
             <div class="carousel-item">
                 <div class="carousel-block img-fluid" style="background-image: url(https://www.infocanuelas.com/app/media/acercarte-canuelas.jpeg);" alt="First slide"></div>
-                <!-- <img class="w-100" src="https://www.infocanuelas.com/app/media/acercarte-canuelas.jpeg" alt="First slide"> -->
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -29,17 +26,19 @@
     </div>
 </section>
 @endsection
+
+
 @section('proyectos')
     <div class="row text-center no-gutters">
         <div class="col-sm text-center my-auto">
-            <a class="card card-block d-flex" href="/paisajismo" style="text-decoration:none !important">
+            <a class="card card-block d-flex" href="/categoria/Paisajismo" style="text-decoration:none !important">
                 <div class="card-body align-items-center d-flex justify-content-center card-own img-paisa">
                     <div class="text-proyectos"> PAISAJISMO </div>
                 </div>
             </a>
         </div>
         <div class="col-sm text-center my-auto">
-            <a class="card card-block d-flex" href="/construccion" style="text-decoration:none !important">
+            <a class="card card-block d-flex" href="/categoria/Construccion" style="text-decoration:none !important">
                 <div class="card-body align-items-center d-flex justify-content-center card-own img-cons">
                     <div class="text-proyectos"> CONSTRUCCION </div>
                 </div>

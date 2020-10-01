@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/nosotros', function () {
     return view('pages.about');
 });
+
+Route::get('/categoria/{category}', 'ProjectsController@index');
+Route::get('/categoria/{category}/{folder}', 'ProjectsController@show');

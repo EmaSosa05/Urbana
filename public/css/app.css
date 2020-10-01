@@ -10914,8 +10914,11 @@ a.text-dark:focus {
   opacity: 100%;
 }
 
-.nav-item {
+.dropdown-menu {
   color: white;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0%;
 }
 
 .dropdown-menu {
@@ -10938,9 +10941,7 @@ a.text-dark:focus {
 }
 
 .carousel-block {
-  width: 100%;
-  min-height: 100%;
-  background-size: 100%;
+  min-height: 400px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -10972,10 +10973,12 @@ a.text-dark:focus {
 
 .img-paisa {
   background: url("https://como-funciona.com/wp-content/uploads/2019/02/c%C3%B3mo-funciona-el-paisajismo.jpg") no-repeat;
+  background-size: 100%;
 }
 
 .img-cons {
   background: url("https://img.interempresas.net/fotos/2244011.jpeg") no-repeat;
+  background-size: 100%;
 }
 
 .text-proyectos {
@@ -10985,7 +10988,7 @@ a.text-dark:focus {
 }
 
 .text-muted {
-  font-size: 1.5vw;
+  font-size: 15px;
 }
 
 .about-parallax {
@@ -11072,7 +11075,63 @@ a.text-dark:focus {
 
 .photo-background img {
   margin: 4%;
-  width: 178px;
+  width: 150px;
   border-radius: 50%;
+}
+
+.category-hero {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: 44px;
+}
+
+.category-hero .content {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.col-sm-4:hover .overlay {
+  opacity: 1;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008CBA;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text:hover {
+  color: white;
+}
+
+.project-hero {
+  display: block;
+  margin: auto;
+  padding-top: 44px;
 }
 

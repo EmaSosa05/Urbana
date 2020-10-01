@@ -26,14 +26,15 @@
         <div class="row no-gutters">
             <div class="col-sm">
                 <div class="d-flex justify-content-center">
-                    <div class="row photo-background">
+                    <div class="row photo-background no-gutters">
                         <div class="col">
                             <img src="https://image.freepik.com/vector-gratis/perfil-avatar-hombre-icono-redondo_24640-14044.jpg">    
                         </div>
                         <div class="col">
                             <h1>GUILLERMO</h1>
                             <h1>RAMOS</h1>
-                            <p>SOCIO-GERENTE EMRPESA URBANA S.R.L.</p>
+                            <p>SOCIO-GERENTE EMRPESA</p>
+                            <p>URBANA S.R.L.</p>
                             <h5>1540251592</h5>
                             <h5>atw061@gmail.com</h5>
                         </div>
@@ -42,14 +43,15 @@
             </div>
             <div class="col-sm">
                 <div class="d-flex justify-content-center">
-                    <div class="row photo-background">
+                    <div class="row photo-background no-gutters">
                         <div class="col">
                             <img src="https://image.freepik.com/vector-gratis/perfil-avatar-hombre-icono-redondo_24640-14044.jpg">
                         </div>
                         <div class="col">
                             <h1>RUBEN</h1>
                             <h1>SOLANO</h1>
-                            <p>SOCIO-GERENTE EMRPESA URBANA S.R.L.</p>
+                            <p>SOCIO-GERENTE EMRPESA</p>
+                            <p>URBANA S.R.L.</p>
                             <h5>1568355864</h5>
                             <h5>rubenpsolano@gmail.com</h5>
                         </div>

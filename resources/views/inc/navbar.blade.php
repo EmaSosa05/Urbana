@@ -17,8 +17,8 @@
             Proyectos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/paisajismo">Paisajismo</a>
-            <a class="dropdown-item" href="/construccion">Construcción</a>
+            <a class="dropdown-item" href="/categoria/Paisajismo">Paisajismo</a>
+            <a class="dropdown-item" href="/categoria/Construccion">Construcción</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/nosotros">Nosotros</a>

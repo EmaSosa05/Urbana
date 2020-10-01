@@ -23,7 +23,12 @@
 
     @yield('home')
     @yield('proyectos')
-    @yield('about')
+
+    @yield('category')
+    
+    @yield('project')
+
+    @yield('about')    
 
     @include('inc.footer')
     
