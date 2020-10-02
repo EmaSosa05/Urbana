@@ -222,7 +222,28 @@
 
 .project-hero {
   display: block;
-  // text-align: center;
   margin: auto;
   padding-top: 44px;
+  .col-content{
+    margin: 0 auto;
+    padding-left: 15px;
+  }
 }
+
+.carousel-thumbnails .carousel-indicators {
+  position:static;
+  left:initial;
+  width:initial;
+  margin-right:initial;
+  margin-left:initial;
+  overflow-x:auto;
+  white-space:nowrap;
+ }
+ .carousel-thumbnails .carousel-indicators>li {
+  width:initial;
+  height:initial;
+  text-indent:initial
+ }
+ .carousel-thumbnails .carousel-indicators>li .active img {
+  opacity:1
+ }

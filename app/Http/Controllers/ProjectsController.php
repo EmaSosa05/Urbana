@@ -27,7 +27,7 @@ class ProjectsController extends Controller
     public function show($category,$folder){
 
         $path="./images/{$category}/{$folder}";
-        $datos = simplexml_load_file("$path/test.xml") or die("Failed to load");
+        $datos = simplexml_load_file("$path/datos.xml") or die("Failed to load");
 
         foreach (glob("$path/*.jpg") as $filename) {
             $files_arr[] = substr($filename,1);
