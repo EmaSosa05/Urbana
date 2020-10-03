@@ -6,13 +6,19 @@
         <img src="/images/Urbana_logo.png" class="carousel-img">
         <div class="carousel-inner">
             <div class="carousel-item active"> 
-                <div class="carousel-block img-fluid" style="background-image: url(https://images.clarin.com/2018/01/18/B15vQiRNG_720x0__1.jpg);" alt="First slide"></div>
+                <div class="carousel-block">
+                    <img class="w-100" src="/images/Portada/1.jpg">
+                </div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-block img-fluid" style="background-image: url(https://www.lanoticia1.com/sites/default/files/circ.jpeg);" alt="First slide"></div>
+                <div class="carousel-block">
+                    <img class="w-100" src="/images/Portada/2.jpg">
+                </div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-block img-fluid" style="background-image: url(https://www.infocanuelas.com/app/media/acercarte-canuelas.jpeg);" alt="First slide"></div>
+                <div class="carousel-block">
+                    <img class="w-100" src="/images/Portada/3.jpg">
+                </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

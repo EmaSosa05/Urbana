@@ -5,7 +5,7 @@
     <div class="content">
         <div class="row no-gutters">
             <div class="col-sm">
-                <img class="w-100" src="https://images.clarin.com/2018/01/18/B15vQiRNG_720x0__1.jpg" alt="">
+                <img class="w-100" src="/images/foto-grupal.jpg" alt="">
             </div>
             <div class="col-sm my-auto">
                 <div class="col-content text-left">
@@ -21,7 +21,7 @@
     </div>
 </section>
 
-<section class="about-hero" style="background: url('https://disruptivo.tv/wp-content/uploads/2019/04/team.png');">
+<section class="about-hero">
     <div class="content-2">
         <div class="row no-gutters">
             <div class="col-sm">
